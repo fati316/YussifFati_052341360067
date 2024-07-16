@@ -1,0 +1,170 @@
+body{
+    height:100% ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(255, 255, 255, 0.463),rgba(0, 0, 255, 0.413));
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.menu-bar{
+    color: rgb(231, 141, 23);
+    width: 40%;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    transition: color 1s, border-bottom 1s;
+}
+.menu-bar:hover{
+    text-decoration: underline;
+    color: bisque;
+}
+.main-container{
+    width: 100%;
+    min-height: 700px;
+}
+.main-header{
+    width: 100%;
+    min-height: 76px;
+    display: flex;
+    justify-content: space-between;
+    background:linear-gradient(rgba(215, 215, 250, 0.26),rgba(0, 0, 255, 0.265)) ;
+    position: sticky;
+    
+}
+.main-menu{
+    width: 60%;
+    display: flex;
+}
+.first-menu{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(239, 78, 9);
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    transition: background 1s, color 1s;
+    cursor: pointer;
+ 
+    
+}
+.first-menu:hover{
+    background: linear-gradient(rgba(255, 255, 255, 0.527),rgba(0, 0, 255, 0.482));
+}
+.sk-list{
+    display: flex;
+    justify-content: space-around;
+}
+.container1{
+    color: aliceblue;
+    background-image: url(767301.jpg);
+    background-position: center;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border-radius: 5px;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.days-work{
+    border-radius: 30px;
+    border: 1px solid gray;
+    margin-left: auto;
+    width: 40%;
+    background: linear-gradient(rgba(32, 27, 27, 0.347),rgba(128, 128, 128, 0.333));
+  
+    
+}
+.menu-sk{
+    color: rgb(249, 251, 254);
+    border-radius: 30px;
+    border: 1px solid gray;
+    width: 40%;
+    align-items: center;
+    background: linear-gradient(rgba(40, 35, 35, 0.347),rgba(128, 128, 128, 0.333));
+}
+.week-day{
+    color: aliceblue;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    background: linear-gradient(rgba(21, 20, 20, 0.304),rgba(144, 143, 143, 0.441));
+    
+}
+.weeken{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.week-container{
+    min-height: 500px;
+    width: 100%;
+    background-image:url(pexels-isabella-mendes-107313-340996.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+@media (max-width:768px) {
+    .menu-bar{
+        color: rgb(231, 141, 23);
+        width: 40%;
+        text-align: center;
+        font-size: 12px;
+         cursor: pointer;
+        transition: color 1s, border-bottom 1s;
+    }
+    .first-menu{
+        font-size: 9px;
+        border-radius: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        align-items: center;
+       
+    }  
+    .week-day{
+        border-radius: 30px;
+        border: 1px solid gray;
+        margin-left: auto;
+        width: 70%;
+        background: linear-gradient(rgba(41, 33, 33, 0.347),rgba(128, 128, 128, 0.333));
+      
+        
+    }  
+    .work{
+        font-size: 12px;
+    }
+    .days-work{
+        border-radius: 30px;
+        border: 1px solid gray;
+        margin-left: auto;
+        width: 40%;
+        background: linear-gradient(rgba(31, 26, 26, 0.347),rgba(128, 128, 128, 0.333));
+      
+        
+    }
+    .menu-sk{
+        padding-left: 0%;
+        color: rgb(252, 253, 255);
+        border-radius: 30px;
+        border: 1px solid gray;
+        width: 65%;
+        font-size: 12px;
+        background: linear-gradient(rgba(10, 9, 9, 0.347),rgba(128, 128, 128, 0.333));
+    }
+    .sk-list{
+        font-weight: bold;
+        display: flex;
+        justify-content: space-around;
+    }
+}
